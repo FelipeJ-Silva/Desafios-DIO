@@ -1,60 +1,99 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+html,
+body {
+    margin: 0;
 }
-nav ul {
-    list-style-type: none;
-    padding: 15;
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
 }
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-section {
-    padding: 20px;
-    margin-bottom: 20px;
-}
-form {
-    max-width: 800px;
+
+.wrapper {
+    width: 1200px;
+    display: flex;
     margin: 0 auto;
 }
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
+
+.menu {
+    width: 15%;
+    background-color: rgb(74, 65, 145);
+    color: white;
     padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
+    border-bottom-right-radius: 55px;
 }
-input[type="submit"]:hover {
-    background-color: #0056b3;
+
+.menu li {
+    padding: 5px;
+    list-style: none;
+}
+
+.menu a {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(39, 39, 39);
+}
+
+.main {
+    display: flex;
+    border-bottom-right-radius: 55px;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    min-height: 250px;
+    min-width: 150px;
+}
+
+.header img {
+    max-width: 950px;
+    padding: 5px 10px;
+    border-radius: 10px 100px / 120px;
+    position: absolute;
+}
+
+.header h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    position: absolute;
+    padding-top: 145px;
+    padding-left: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    min-height: 300px;
+}
+.cardiologia {
+    background-color: red;
+    border-radius: 10px 100px / 120px;
+}
+.check-up {
+    background-color: blue;
+}
+.med-esportiva {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
 }
