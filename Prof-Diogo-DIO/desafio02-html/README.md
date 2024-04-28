@@ -1,4 +1,23 @@
-# Trilha HTML - Dio.me
+# DESAFIO CONCLUIDO
+
+Durante este desafio, pude mergulhar fundo nos fundamentos do desenvolvimento web, aplicando conceitos essenciais de HTML para criar um site completo para uma clínica médica. Foi uma jornada empolgante de aprendizado, onde explorei diversos aspectos do HTML e suas aplicações práticas.
+
+Aqui estão alguns dos pontos que destaco dessa experiência:
+
+🔹 Estruturação eficiente: Aprendi a importância de uma boa estruturação do código HTML para garantir a organização e acessibilidade do site.
+🔹 Formulários interativos: Desenvolvi formulários interativos para coletar informações dos usuários, utilizando diferentes tipos de campos e validações.
+🔹 Inserção de mídias: Explorei a inserção de imagens para tornar o site visualmente atraente e envolvente, especialmente nos headers das páginas.
+🔹 Organização com tabelas: Utilizei tabelas HTML para organizar e apresentar informações de forma tabular, como os horários de atendimento da clínica médica.
+🔹 Integração de mapas: Incorporando um mapa do Google Maps, ofereci aos usuários a possibilidade de visualizar facilmente a localização da clínica médica.
+🔹 Navegação intuitiva: Implementei um menu de navegação consistente em todas as páginas do site, proporcionando uma experiência de navegação suave e intuitiva.
+
+Essa experiência não apenas solidificou meus conhecimentos em HTML, mas também me inspirou a continuar explorando e aprimorando minhas habilidades no desenvolvimento web. Estou ansioso para aplicar esses aprendizados em projetos futuros e continuar evoluindo como desenvolvedor web.
+
+
+
+ABAIXO DESAFIO PROPOSTO:
+
+## Trilha HTML - Dio.me
 ## Módulo 02 - HTML I - Conceitos Básicos
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Fake</title>
+    <link rel="stylesheet" href="./css/config-padrao.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Aqui vai o seu menu -->
+      <div class="menu">
+        <ul>
+          <li><a href="inicio.html">Página Inicial</a></li>
+          <li><a href="sobre.html">Sobre a Clínica</a></li>
+          <li><a href="atendimento.html">Horário de Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Aqui vai o seu header -->
+      <div class="main">
+        <div class="header">
+          <img src="img/banner-contato.png" alt="banner-contato-clinica" />
+          <h1>Contato</h1>
+        </div>
+
+        <!-- Aqui vai o seu conteudo -->
+        <div class="content">
+          <h2>Clínica</h2>
+          <p>
+            Telefones de contato: Celular: (00) 12345-6789 | Whatsapp: (00)
+            12345-6789
+          </p>
+          <p>
+            Av. Dep. Emílio Carlos, 3000 - Vila Espanhola, São Paulo - SP,
+            02720-200, Brasil
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.433254238536!2d-46.675731385384914!3d-23.48089925261886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef9d434cd542d%3A0xf2f484bb7531c08!2sHospital%20Geral%20de%20Vila%20Nova%20Cachoeirinha!5e0!3m2!1sen!2suk!4v1714345425549!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h2>Formulário de Contato</h2>
+          <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+          </form>
+        </div>
+
+        <!-- Aqui vai o seu rodapé -->
+        <div class="footer">
+          <p>&copy; 2024 Clínica Fake. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

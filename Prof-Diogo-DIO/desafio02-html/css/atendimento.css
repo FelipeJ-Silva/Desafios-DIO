@@ -1,0 +1,102 @@
+.main {
+    display: flex;
+    border-bottom-right-radius: 55px;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    min-height: 250px;
+    min-width: 150px;
+}
+
+.header img {
+    max-width: 98%;
+    padding: 5px 10px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.header h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(74, 65, 145);
+    text-transform: uppercase;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 80px;
+}
+
+.content {
+    align-items: center;
+    max-width: 100%;
+    min-height: 400px;
+    margin-top: 235px;
+}
+
+.servicos {
+    background-color: rgb(74, 65, 145);
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.servicos h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.servicos ul li {
+    display: inline;
+    font-style: italic;
+    font-size: 22px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.tabela {
+    background-color: rgb(74, 65, 145);
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.tabela h3 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabela table {
+    border-collapse: collapse;
+    background-color: #d6e0e7;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tabela th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabela th {
+    background-color: #333;
+    color: #fff;
+  }
+  
