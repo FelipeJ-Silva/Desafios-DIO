@@ -34,5 +34,16 @@ a { color:blue; text-decoration: none;}
     border-right: solid 1px #cdcdcd;
 }
 figure {
+    font-size: 10px;
     text-align: center;
+}
+img {
+    max-width: 500px;
+}
+footer {
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: flex-start;
 }
